@@ -51,7 +51,6 @@ public class Order {
     }
 
     //==생성 메서드==//
-    // 생성 시점을 한곳으로 만들어서 여기만 변경하면 되게 만들기
     public static Order createOrder(Member member, Delivery delivery, OrderItem... orderItems) {
         Order order = new Order();
         order.setMember(member);

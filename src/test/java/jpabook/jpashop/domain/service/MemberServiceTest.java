@@ -23,7 +23,7 @@ class MemberServiceTest {
     MemberRepository memberRepository;
 
     @Test
-    //@Rollback(value = false)
+    @Rollback(value = false)
     public void 회원가입() throws Exception {
         Member member = new Member();
         member.setName("kim");
